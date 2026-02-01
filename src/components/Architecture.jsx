@@ -5,7 +5,7 @@ const Architecture = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Arquitectura del Sistema</h2>
           <p className="section-subtitle mx-auto">
-            Diseño cliente-servidor con separación clara de responsabilidades
+            Diseño cliente-servidor y flujo del sistema
           </p>
         </div>
         

@@ -1,10 +1,9 @@
 const Metrics = () => {
   const metrics = [
-    { value: '163+', label: 'Commits', description: 'en el repositorio' },
+    { value: '163+', label: 'Commits', description: 'en GitHub Repo' },
     { value: '50+', label: 'Endpoints API', description: 'RESTful implementados' },
     { value: '11', label: 'Modelos de Datos', description: 'en MongoDB' },
     { value: '2', label: 'Países', description: 'Costa Rica y Guatemala' },
-    { value: '34+', label: 'MB de Datos', description: 'en producción' },
     { value: '3', label: 'Roles de Usuario', description: 'cliente, admin, repartidor' },
   ];
 
@@ -14,11 +13,11 @@ const Metrics = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Métricas del Proyecto</h2>
           <p className="section-subtitle mx-auto">
-            Números que reflejan el alcance y la complejidad del sistema
+          Dimensión del alcance y complejidad del sistema
           </p>
         </div>
         
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {metrics.map((metric, index) => (
             <div 
               key={index}

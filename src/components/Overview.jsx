@@ -10,7 +10,7 @@ const Overview = () => {
       ),
     },
     {
-      label: 'Mi Rol',
+      label: 'Rol',
       value: 'Full Stack Developer',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -19,7 +19,7 @@ const Overview = () => {
       ),
     },
     {
-      label: 'Duración',
+      label: 'Periodo de Desarrollo',
       value: 'Julio 2025 - Presente',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -29,7 +29,7 @@ const Overview = () => {
     },
     {
       label: 'Estado',
-      value: 'En Producción Activa',
+      value: 'En Producción',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -43,9 +43,6 @@ const Overview = () => {
       <div className="section-container">
         <div className="text-center mb-16">
           <h2 className="section-title">Descripción del Proyecto</h2>
-          <p className="section-subtitle mx-auto">
-            Una solución integral de comercio electrónico desarrollada desde cero
-          </p>
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -59,7 +56,7 @@ const Overview = () => {
             <p className="text-dark-300 text-lg leading-relaxed">
               El sistema fue desarrollado para resolver la necesidad de digitalizar las ventas 
               de la empresa, ofreciendo una experiencia de compra moderna con soporte para 
-              múltiples países, cálculo automático de impuestos y pasarelas de pago locales.
+              múltiples países, cálculo automático de impuestos y pasarelas de pago internacionales.
             </p>
             
             {/* Categorías de productos */}

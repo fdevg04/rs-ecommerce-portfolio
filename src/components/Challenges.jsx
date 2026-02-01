@@ -7,8 +7,8 @@ const Challenges = () => {
       tags: ['Webhooks', 'Validación', 'Antifraude'],
     },
     {
-      challenge: 'Soporte Multipaís con IVA Diferenciado',
-      problem: 'Gestionar productos y precios para Costa Rica y Guatemala con diferentes tasas de IVA.',
+      challenge: 'Soporte Multipaís',
+      problem: 'Gestionar rutas, productos y precios para Costa Rica y Guatemala con sus respectivos flujos de trabajo.',
       solution: 'Modelo de producto con campo de país, cálculo dinámico de IVA (13% CR, 12% GT incluido) y validación de carrito según el teléfono del usuario.',
       tags: ['Multitenancy', 'Impuestos', 'Validación'],
     },
@@ -24,9 +24,9 @@ const Challenges = () => {
     <section id="challenges" className="py-24 bg-dark-900/50">
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="section-title">Retos y Soluciones</h2>
+          <h2 className="section-title">Solución de Problemas</h2>
           <p className="section-subtitle mx-auto">
-            Problemas técnicos enfrentados y cómo fueron resueltos
+            Problemas técnicos, QA y soluciones implementadas
           </p>
         </div>
         

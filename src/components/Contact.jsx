@@ -3,15 +3,14 @@ const Contact = () => {
     <section id="contact" className="py-24 bg-dark-900/50">
       <div className="section-container">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="section-title">¿Interesado en Saber Más?</h2>
+          <h2 className="section-title">Medios de Contacto</h2>
           <p className="section-subtitle mx-auto mb-10">
-            Si desea conocer más detalles sobre este proyecto o mi experiencia como desarrollador, 
-            no dude en contactarme.
+            Experiencia como profesional/desarrollador
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <a 
-              href="https://www.linkedin.com/in/fernando-gonzalez-dev" 
+              href="https://www.linkedin.com/in/fernando-gonz%C3%A1lez-ram%C3%B3n-88a88635a" 
               target="_blank" 
               rel="noopener noreferrer"
               className="btn-primary gap-2 w-full sm:w-auto"
@@ -49,7 +48,7 @@ const Contact = () => {
               Desarrollado por <span className="text-dark-300">Fernando González Ramón</span>
             </p>
             <p className="text-dark-600 text-sm mt-1">
-              Full Stack Developer | Instituto Tecnológico de Costa Rica
+              Full Stack Developer | Computer Engineer | Instituto Tecnológico de Costa Rica
             </p>
           </div>
         </div>

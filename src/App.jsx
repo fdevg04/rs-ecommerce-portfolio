@@ -22,7 +22,7 @@ function App() {
               <a href="#tech-stack" className="text-dark-400 hover:text-white transition-colors text-sm">Stack</a>
               <a href="#features" className="text-dark-400 hover:text-white transition-colors text-sm">Funcionalidades</a>
               <a href="#arquitectura" className="text-dark-400 hover:text-white transition-colors text-sm">Arquitectura</a>
-              <a href="#challenges" className="text-dark-400 hover:text-white transition-colors text-sm">Retos</a>
+              <a href="#challenges" className="text-dark-400 hover:text-white transition-colors text-sm">Soluciones</a>
               <a href="#contact" className="text-dark-400 hover:text-white transition-colors text-sm">Contacto</a>
             </div>
           </div>
@@ -42,7 +42,7 @@ function App() {
       {/* Footer */}
       <footer className="py-6 border-t border-dark-800">
         <div className="max-w-6xl mx-auto px-4 text-center text-dark-500 text-sm">
-          2025 Fernando González Ramón. Proyecto desarrollado para RS Seguridad Digital Internacional.
+          2026 Fernando González Ramón. Proyecto desarrollado para RS Seguridad Digital Internacional.
         </div>
       </footer>
     </div>

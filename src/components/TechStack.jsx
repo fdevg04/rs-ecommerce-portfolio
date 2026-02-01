@@ -68,7 +68,7 @@ const TechStack = () => {
       bgColor: 'bg-dark-800',
       borderColor: 'border-dark-700',
       techs: [
-        { name: 'Tilopay', version: 'Costa Rica' },
+        { name: 'Tilopay', version: 'Internacional' },
         { name: 'Onvo Pay', version: 'Alternativa' },
       ],
     },
@@ -80,7 +80,7 @@ const TechStack = () => {
         <div className="text-center mb-16">
           <h2 className="section-title">Stack Tecnológico</h2>
           <p className="section-subtitle mx-auto">
-            Tecnologías modernas y robustas para una solución escalable
+            Tecnologías actuales y robustas para una solución escalable
           </p>
         </div>
         

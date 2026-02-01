@@ -22,15 +22,15 @@ const Hero = () => {
           </div>
           
           {/* Título principal */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             RS Seguridad Digital
             <span className="block text-primary-500">E-Commerce</span>
           </h1>
           
           {/* Descripción */}
-          <p className="text-xl md:text-2xl text-dark-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-sm md:text-base text-dark-300 mb-10 max-w-3xl mx-auto leading-relaxed">
             Plataforma de comercio electrónico completa para distribuidor de equipos de seguridad, 
-            sirviendo a Costa Rica y Guatemala con integración de pagos y panel administrativo.
+            multipaís Costa Rica/Guatemala con integración de pagos y panel administrativo.
           </p>
           
           {/* Botones de acción */}
@@ -44,7 +44,7 @@ const Hero = () => {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
-              Ver Sitio en Vivo
+              Ver Sitio
             </a>
             <a 
               href="#arquitectura" 
@@ -53,7 +53,7 @@ const Hero = () => {
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
               </svg>
-              Ver Documentación
+              Documentación
             </a>
           </div>
           
@@ -75,7 +75,7 @@ const Hero = () => {
               </div>
               {/* Placeholder para screenshot - Reemplazar con imagen real */}
               <div className="aspect-video bg-dark-800 flex items-center justify-center">
-                <p className="text-dark-500 text-lg">Screenshot de la plataforma</p>
+                <p className="text-dark-500 text-lg">P-Screen</p>
                 {/* <img src="/screenshots/homepage.png" alt="RS Seguridad E-Commerce Homepage" className="w-full h-auto" /> */}
               </div>
             </div>
