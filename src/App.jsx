@@ -15,7 +15,7 @@ function App() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             <a href="#" className="text-white font-semibold">
-              RS E-Commerce <span className="text-primary-500">Portfolio</span>
+              Professional Experience <span className="text-primary-500">Portfolio</span>
             </a>
             <div className="hidden md:flex items-center gap-6">
               <a href="#overview" className="text-dark-400 hover:text-white transition-colors text-sm">Descripción</a>
@@ -42,7 +42,7 @@ function App() {
       {/* Footer */}
       <footer className="py-6 border-t border-dark-800">
         <div className="max-w-6xl mx-auto px-4 text-center text-dark-500 text-sm">
-          2026 Fernando González Ramón. Proyecto desarrollado para RS Seguridad Digital Internacional.
+          2026 Fernando González Ramón. Professional Experience Portfolio.
         </div>
       </footer>
     </div>

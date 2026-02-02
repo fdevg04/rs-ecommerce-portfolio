@@ -1,8 +1,8 @@
 const Overview = () => {
   const details = [
     {
-      label: 'Cliente',
-      value: 'RS Seguridad Digital Internacional',
+      label: 'Sector',
+      value: 'Distribución de Equipos de Seguridad',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
@@ -19,7 +19,7 @@ const Overview = () => {
       ),
     },
     {
-      label: 'Periodo de Desarrollo',
+      label: 'Período de Desarrollo',
       value: 'Julio 2025 - Presente',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -49,14 +49,14 @@ const Overview = () => {
           {/* Descripción */}
           <div className="space-y-6">
             <p className="text-dark-300 text-lg leading-relaxed">
-              RS Seguridad Digital E-Commerce es una plataforma completa que permite a la empresa 
-              gestionar su catálogo de productos de seguridad electrónica, procesar pedidos y 
-              administrar clientes de manera eficiente.
+              Plataforma de comercio electrónico desarrollada desde cero para un distribuidor 
+              de equipos de seguridad electrónica. El sistema permite gestionar el catálogo de productos, 
+              procesar pedidos y administrar clientes de manera eficiente.
             </p>
             <p className="text-dark-300 text-lg leading-relaxed">
-              El sistema fue desarrollado para resolver la necesidad de digitalizar las ventas 
-              de la empresa, ofreciendo una experiencia de compra moderna con soporte para 
-              múltiples países, cálculo automático de impuestos y pasarelas de pago internacionales.
+              El proyecto fue desarrollado para digitalizar las operaciones de venta de la empresa, 
+              ofreciendo una experiencia de compra moderna con soporte para múltiples países, 
+              cálculo automático de impuestos y pasarelas de pago internacionales.
             </p>
             
             {/* Categorías de productos */}

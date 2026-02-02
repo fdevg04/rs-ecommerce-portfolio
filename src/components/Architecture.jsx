@@ -1,3 +1,5 @@
+import arquitecturaDiagram from '../assets/diagrams/Arquitectura_Sistema.png';
+
 const Architecture = () => {
   return (
     <section id="arquitectura" className="py-24">
@@ -10,28 +12,13 @@ const Architecture = () => {
         </div>
         
         {/* Diagrama de arquitectura */}
-        <div className="card max-w-4xl mx-auto mb-12">
-          <div className="bg-dark-800 rounded-lg p-8 font-mono text-sm overflow-x-auto">
-            <pre className="text-dark-300 whitespace-pre">
-{`                                    +------------------+
-                                    |   MongoDB Atlas  |
-                                    |    (rs-prod)     |
-                                    +--------+---------+
-                                             |
-+------------------+              +----------+----------+              +------------------+
-|                  |   HTTPS      |                     |   HTTPS      |                  |
-|     Cliente      +------------->+      Backend        +<-------------+   Pasarelas de   |
-|    (Browser)     |              |   (Express.js)      |              |      Pago        |
-|                  |<-------------+                     +------------->|  Tilopay / Onvo  |
-+--------+---------+              +----------+----------+              +------------------+
-         |                                   |
-         |                                   |
-         v                                   v
-+------------------+              +------------------+
-|     Frontend     |              |   GridFS (MongoDB)|
-|   (React + Vite) |              |  Imágenes / PDFs  |
-+------------------+              +------------------+`}
-            </pre>
+        <div className="card max-w-5xl mx-auto mb-12">
+          <div className="bg-dark-800 rounded-lg p-6 overflow-hidden">
+            <img 
+              src={arquitecturaDiagram} 
+              alt="Diagrama de Arquitectura del Sistema" 
+              className="w-full h-auto rounded-lg"
+            />
           </div>
         </div>
         
